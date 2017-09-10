@@ -89,3 +89,10 @@ void setTextAlignment(OLEDDISPLAY_TEXT_ALIGNMENT textAlignment);
 // Or create one with the font tool at http://oleddisplay.squix.ch
 void setFont(const char* fontData);
 ```
+## Manual Installation
+
+- Click on the `Download ZIP` button in the top right corner.
+- Uncompress it.
+- Rename the uncompressed folder to `OLED_TELEGRAM`.
+- Place the `OLED_TELEGRAM` folder in your `<arduinosketchfolder>/libraries/` folder - you may need to create the `libraries` subfolder if it is your first library.
+- Restart the IDE.
