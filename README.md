@@ -51,3 +51,5 @@ void setFont(const char* fontData);
 - Rename the uncompressed folder to `OLED_TELEGRAM`.
 - Place the `OLED_TELEGRAM` folder in your `<arduinosketchfolder>/libraries/` folder - you may need to create the `libraries` subfolder if it is your first library.
 - Restart the IDE.
+## IMAGE
+![telegram](https://user-images.githubusercontent.com/26035500/30270062-d71ccd6a-9708-11e7-847e-44a8d46aed73.jpg)
