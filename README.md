@@ -16,52 +16,7 @@ Choose the font family, style and size, check the preview image and if you like 
 
 SSD1306  display(ADDRESS, SDA, SDC);
 ```
-or for a SH1106:
-```C++
-#include <Wire.h>  
-#include "SH1106.h"
 
-SH1106  display(ADDRESS, SDA, SDC);
-```
-### Display Control
-
-```C++
-// Initialize the display
-void init();
-
-// Free the memory used by the display
-void end();
-
-// Cycle through the initialization
-void resetDisplay(void);
-
-// Connect again to the display through I2C
-void reconnect(void);
-
-// Turn the display on
-void displayOn(void);
-
-// Turn the display offs
-void displayOff(void);
-
-// Clear the local pixel buffer
-void clear(void);
-
-// Write the buffer to the display memory
-void display(void);
-
-// Inverted display mode
-void invertDisplay(void);
-
-// Normal display mode
-void normalDisplay(void);
-
-// Set display contrast
-void setContrast(char contrast);
-
-// Turn the display upside down
-void flipScreenVertically();
-```
 ## Text operations
 
 ``` C++
