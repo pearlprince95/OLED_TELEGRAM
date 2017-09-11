@@ -1,5 +1,7 @@
 # OLED_TELEGRAM
-This helps you to view your message in your OLED.. 
+This helps you to view your message in your OLED..
+And also allows you to ON and OFF the inbuilt LED.
+
 ## Fonts
 
 Fonts are defined in a proprietary but open format. You can create new font files by choosing from a given list
